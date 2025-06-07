@@ -1,0 +1,64 @@
+@media (max-width:991px){
+    .sidebar{
+        background: linear-gradient(160deg, #ffffff, #06f512);
+
+        
+
+
+    }
+}
+/* @media (max-width:991px){
+    .bacground{
+        background-image: url(../Images/plants.jpg);
+
+        
+
+
+    }
+} */
+.carousel {
+    position: relative;
+    margin-top:100px
+}
+@media(max-width:991px){
+
+    .carousel-caption h3 {
+   font-size:1.2rem;
+}
+}
+@media(max-width:575px){
+    .col-2{
+        margin: 3px !important;
+    }
+}
+@media(max-width:991px){
+    .col-2{
+        margin: 10px !important;
+    }
+}
+
+@media screen and (max-width: 1147px) {
+    .outer-container {
+        position: relative;
+        overflow: scroll;
+        scrollbar-color: #0a4c36 #ffffff00;
+        scroll-behavior: smooth;
+        scrollbar-width: thin;
+    }
+}
+
+  .about-text {
+    font-size: small; /* light */
+  }
+  @media (min-width: 768px) { /* md */
+    .about-text {
+      font-size: medium; /* normal */
+    }
+  }
+  @media (min-width: 992px) { /* lg */
+    .about-text {
+      font-size: larger;
+    }
+  }
+
+
